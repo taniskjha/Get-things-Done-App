@@ -1,0 +1,50 @@
+body {
+  background-color:#e0e6df;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: large !important;
+  font-weight: bolder !important;
+ 
+  /* font-family: 'Lobster', cursive;
+  font-family: 'Caveat', cursive;
+  font-family: 'Lobster Two', cursive; */
+  /* background-color:rgb(255, 224, 27);
+  padding: 4px 8px; */
+
+}
+
+.btn {
+  background-color:rgb(255, 224, 27);
+  color: black;
+  font-weight: bolder;
+
+}
+
+.btn:hover {
+  background-color:gray;
+}
+
+.clear-tasks {
+  background-color:rgb(3, 252, 227) !important;
+  /* color: white;
+  font-weight: bolder; */
+}
+
+#task-title {
+  font-weight: 500;
+  font-size: inherit;
+  /* margin: auto; */
+  
+}
+
+#task-titles {
+  font-weight: 500;
+  margin-top:50px 50px 50px !important;
+}
+

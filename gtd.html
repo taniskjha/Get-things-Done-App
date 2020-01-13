@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Get things Done</title>
+   <!-- materialize CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Font Awesome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- CSS Link -->
+ <link rel="stylesheet" href="gtd.css">
+
+ <!-- font google -->
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two|Caveat|Girassol|Lobster|Ma+Shan+Zheng|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div id="main" class="card">
+          <div class="card-content">
+            <span class="card-title">GET THINGS DONE</span>
+             
+            <div class="row">
+              <!-- <h5 id="task-title">Tasks List</h5> -->
+              <form id="task-form">
+                
+                <div class="input-field col s12">
+                  <input type="text" name="task" id="task">
+                  <label for="task">Create New Tasks Here</label>
+                </div>
+                <input type="submit" value="ADD THINGS" class="btn">
+              </form>
+            </div>
+          </div>
+          <div class="card-action">
+            <h5 id="task-title">Things List</h5>
+            <div class="input-field col s12">
+              
+              <input type="text" name="filter" id="filter">
+              <label for="filter">Filter Tasks here</label>
+            </div>
+            <ul class="collection"></ul>
+            <a href="#" class="clear-tasks btn blue">Clear Things</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+
+  <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- Jquery CDN -->
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>    
+
+  <!-- Script JS  -->
+ <script src="gtd.js"></script>
+  
+
+</body>
+</html>
